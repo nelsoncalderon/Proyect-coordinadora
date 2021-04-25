@@ -1,0 +1,83 @@
+.content-body {
+    background: #F5F2F2;
+    padding: 10px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: flex-end;
+    color: #106EB9;
+    padding: 5px 20px;
+    
+}
+
+.text1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text2{
+    font-weight: 600;
+}
+
+.content-tableprincipal{
+    background: white;
+    padding: 15px;
+}
+
+.content-table1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-table1 .text-1 {
+    color:#656565;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.content-table1 .text-2{
+    color:#B9B9B9;
+    opacity: 0.5;
+}
+
+.dot2 {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #56C2D6;
+    border-radius: 50%;
+    display: inline-block;
+}  
+
+.porcentaje {
+    background:#56C2D6;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+.porcentaje2 {
+    background:red;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+.hr {
+    color:#B9B9B9;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 600px){
+
+    .content-body{
+        padding: 0px 100px 50px 100px;
+    }
+
+    .text1{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .text2{
+        font-weight: 600;
+    }
+
+}

@@ -1,0 +1,46 @@
+
+
+.content-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 20px 20px 0px;
+    text-align: center;
+  
+}
+
+.content-text svg{
+    width: 10px;
+}
+
+.content-text {
+    display: flex;
+    background:#106EB9 ;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-title{
+  padding: 0px 30px;
+}
+
+.separador{
+    font-size: 1px;
+    background: #56C2D6;
+    opacity: 1;
+}
+
+.dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #56C2D6;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -25px;
+}  
+
+
+
